@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <left>
+      <VBox spacing="10.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="100.0" />
+         </BorderPane.margin>
+         <children>
+            <Button alignment="BOTTOM_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" text="Button" VBox.vgrow="NEVER" />
+            <Button alignment="BOTTOM_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" text="Button" />
+            <Button alignment="BOTTOM_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" text="Button" />
+         </children>
+         <padding>
+            <Insets bottom="100.0" top="100.0" />
+         </padding></VBox>
+   </left>
+   <top>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" focusTraversable="false" minHeight="-Infinity" minWidth="-Infinity" prefHeight="107.0" prefWidth="202.0" text="${controller.logoMessage}">
+               <font>
+                  <Font size="36.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="20.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets top="40.0" />
+         </BorderPane.margin></HBox>
+   </top>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="500.0" />
+         </BorderPane.margin></HBox>
+   </bottom>
+   <center>
+      <HBox spacing="15.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="600.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="600.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="100.0" left="20.0" top="100.0" />
+         </BorderPane.margin></HBox>
+   </center>
+   <right>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>
